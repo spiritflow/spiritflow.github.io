@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Sansita Swashed; /* Имя шрифта */
+    src: url(../font/Sansita_Swashed.zip); /* Путь к файлу со шрифтом */
+}
+*{
+    font-family:Sansita Swashed;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.info{
+    min-height: 937px;
+    background: url(../img/bg/1.jpg) center center/cover no-repeat;
+    padding: 250px 0 100px 0;
+}
+@media (max-width: 767px){
+    .info {
+    min-height: 979.5px;
+    font-size: 26px;
+}}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.info_head {
+    color: black;
+    line-height: 60px;
+    font-size: 68px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+.info_subhead {
+    color: black;
+    font-size: 36px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin-top: 22px;
+    text-align: center;
+}
+.descr {
+    color: black;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 23px;
+    font-size: 29px;
+    font-style: bold;
+}
+.photo .descr{
+    color:  black;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+    font-size: 36px;
+    line-height: 42px;
+}
+.photo{
+    min-height: 937px;
+    background: url(../img/bg/2.jpg) center center/cover no-repeat;
+    padding: 250px 0 100px 0;
+}
+@media (max-width: 767px){
+    .photo{
+        min-height: 979.5px;
+    }
+    .photo .descr{
+    line-height: 32px;
+    min-height: 979.5px;
+    font-size: 26px;
+}}
+.thx{
+    min-height: 937px;
+    background: url(../img/bg/4.jpg) center center/cover no-repeat;
+    padding: 250px 0 100px 0;
+}
+.thx .descr{
+    display: block;
+    margin: 0 auto;
+    color: black;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+    font-size: 66px;
+}
+@media (max-width: 767px){
+    .thx{
+        min-height: 979.5px;
+        padding-top: 250px;
+    }
+    .thx .descr{
+    padding-top: 273px;
+    line-height: 32px;
+    min-height: 979.5px;
+    line-height: 54px;
+    font-size: 66px;
+}}
